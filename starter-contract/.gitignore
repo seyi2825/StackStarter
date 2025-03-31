@@ -11,3 +11,6 @@ coverage
 *.info
 costs-reports.json
 node_modules
+project.txt
+bitcoin.txt
+project-verify.txt
