@@ -1,8 +1,8 @@
-# StackStarter: Decentralized Crowdfunding for Bitcoin-Connected Projects
+# StackStarter: Crowdfunding for Bitcoin-Connected Projects
 
 ## Overview
 
-StackStarter is a decentralized crowdfunding platform built on the Stacks blockchain, designed to empower developers and creators to raise funds for Bitcoin-connected projects. By leveraging Stacks' unique capabilities, such as Proof of Transfer (PoX) and Clarity smart contracts, StackStarter provides a secure, transparent, and community-driven platform for funding innovative projects like dApps, NFTs, and DeFi initiatives.
+StackStarter is a crowdfunding platform built on the Stacks blockchain, designed to empower developers and creators to raise funds for Bitcoin-connected projects. By leveraging Stacks' unique capabilities, such as Proof of Transfer (PoX) and Clarity smart contracts, StackStarter provides a secure, transparent, and community-driven platform for funding innovative projects like dApps, NFTs, and DeFi initiatives.
 
 ## Key Features
 
