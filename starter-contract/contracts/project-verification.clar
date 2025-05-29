@@ -119,7 +119,6 @@
     (asserts! (not (is-governance-member)) (err err-already-member))
     
     ;; Transfer STX from member to contract
-    (unwrap! (stx-transfer? stake-amount tx-sender (as-contract tx-sender)) (err u100))
     
     ;; Register as governance member
     (map-set governance-members
@@ -150,7 +149,6 @@
     (asserts! (> additional-amount u0) (err err-zero-amount))
     
     ;; Transfer additional STX from member to contract
-    (try! (stx-transfer? additional-amount tx-sender (as-contract tx-sender)))
     
     ;; Update member stake
     (map-set governance-members
@@ -172,7 +170,6 @@
       (stake-amount (get stake member-data))
     )
     ;; Transfer STX back to member
-    (try! (as-contract (stx-transfer? stake-amount tx-sender tx-sender)))
     
     ;; Remove from governance members
     (map-delete governance-members { member: tx-sender })
