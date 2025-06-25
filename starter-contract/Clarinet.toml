@@ -15,6 +15,11 @@ path = 'contracts/campaign-management.clar'
 clarity_version = 3
 epoch = 3.0
 
+[contracts.fundraising]
+path = 'contracts/fundraising.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.project-verification]
 path = 'contracts/project-verification.clar'
 clarity_version = 3
