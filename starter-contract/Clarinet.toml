@@ -1,46 +1,19 @@
 [project]
-name = 'starter-contract'
-description = ''
+name = "starter-contract"
 authors = []
+description = ""
 telemetry = true
-cache_dir = '.\.cache'
 requirements = []
-[contracts.bitcoin-crowdfunding]
-path = 'contracts/bitcoin-crowdfunding.clar'
-clarity_version = 3
-epoch = 3.0
+[contracts.nft-rewards]
+path = "contracts/nft-rewards.clar"
+depends_on = []
 
-[contracts.campaign-management]
-path = 'contracts/campaign-management.clar'
-clarity_version = 3
-epoch = 3.0
+[repl]
+costs_version = 2
+parser_version = 2
 
-[contracts.fundraising]
-path = 'contracts/fundraising.clar'
-clarity_version = 3
-epoch = 3.0
-
-[contracts.governance]
-path = 'contracts/governance.clar'
-clarity_version = 3
-epoch = 3.0
-
-[contracts.governance-token]
-path = 'contracts/governance-token.clar'
-clarity_version = 3
-epoch = 3.0
-
-[contracts.milestone]
-path = 'contracts/milestone.clar'
-clarity_version = 3
-epoch = 3.0
-
-[contracts.project-verification]
-path = 'contracts/project-verification.clar'
-clarity_version = 3
-epoch = 3.0
 [repl.analysis]
-passes = ['check_checker']
+passes = ["check_checker"]
 
 [repl.analysis.check_checker]
 strict = false
